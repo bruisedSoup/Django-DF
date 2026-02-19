@@ -1,4 +1,13 @@
+# Virtual Environment
 venv/
-*.pyc
+
+# Python cache
 __pycache__/
-db.sqlite3
+*.py[cod]
+
+# Databases (Crucial!)
+*.sqlite3
+django_activity_db.sqlite3
+
+# IDEs
+.vscode/
